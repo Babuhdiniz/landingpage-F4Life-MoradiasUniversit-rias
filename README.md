@@ -8,7 +8,7 @@
 Para fazer o deploy desse projeto rode
 
 ```bash
-  npm run deploy
+ f4lifelandingpage.netlify.app
 ```
 
 
