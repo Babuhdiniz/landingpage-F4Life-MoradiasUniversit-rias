@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+}
+
+main {
+    background-image: url('Imagens/Fundo.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   border-bottom: 0.1px solid white;
+   background-color: gray
+}
+
+
+figure {
+    width: 200px;
+    height: 100px;
+}
+
+.logo-cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+nav {
+    display: flex;
+    gap: 30px;
+    color: #6DDDCF;
+    background-color:
+    border-radius: 10%;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 0.1px solid white;
+}
+
+
+.conteudo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    width: 900vh;
+
+}
+
+footer {
+    padding: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+
+
+.botões {
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 300px;
+    gap: 10px;
+    margin: 0 auto;
+
+
+}
+
+.produtos {
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+
+}
+
+
+select {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  
